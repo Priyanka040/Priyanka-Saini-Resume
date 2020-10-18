@@ -9,7 +9,7 @@ html
     scroll-behavior: smooth;
 }
 .container{
-    padding: 0 100px 0 100px;
+    padding: 0 5px 0 70px;
 }
 nav ul,
 .main-info-section,
@@ -148,13 +148,13 @@ span.m-left{
 }
 .about{
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 100px;
     
 }
 
 .about h1,
 .work h1{
-    font-size: 10rem;
+    font-size: 12rem;
     z-index: 0;
     opacity: .1;
 }
@@ -168,7 +168,7 @@ span.m-left{
     background-color: #252627;
     box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
     padding: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
     position: relative;
     top: -30px;
     left: 50%;
@@ -203,9 +203,12 @@ span.m-left{
     transition: all .5s;
     animation-duration: 5s;
 }
+/*
 .about-me-info p{
     animation: move 1s infinite alternate;
 }
+*/
+/*
 @keyframes move{
     0%{
         transform: translateX(0);
@@ -225,7 +228,7 @@ span.m-left{
     100%{
         transform: translateX(20px);
     }
-}
+}*/
 .about-me-info p{
     font-size: 1.3rem;
     color: #BEBEBE;
@@ -284,7 +287,7 @@ div[class^='tag-']{
     width: 120px;
     height: 30px;
     background-color: #1785A7;
-    margin-right: 30px;
+    margin-right: 150px;
 }
 
  div[class^='tag-']{
@@ -436,7 +439,7 @@ div[class^='bar-django'] {
     background-color: #252627;
     box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
     padding: 50px;
-    padding-left: 100px;
+    padding-left: 50px;
     position: relative;
     top: -30px;
     left: 50%;
@@ -459,7 +462,7 @@ div[class^='bar-django'] {
 }
 .social-icons{
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY();
     position: sticky;
     z-index: 1;
     width: 80px;
@@ -473,10 +476,10 @@ div[class^='bar-django'] {
     height: 40px;
     width: 40px;
     list-style-type: none;
-    padding-left: 12px;
+    padding-left: px;
     margin-top: 5px;
     color: #fff;
-    background: #1785A;
+    background: #1785A7;
 }
 .social-icons ul li i{
     color: #fff;
@@ -489,7 +492,7 @@ div[class^='bar-django'] {
     padding: 5px;
 }
 .social-icons ul li i:hover{
-    padding-left: 30px;
+    padding-left: 0px;
     width: 80px;
     transition: 1s;
 }
